@@ -1,0 +1,87 @@
+body {
+  background-color: #ffeadb;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+table {
+  background-color: #ffc298;
+  border-collapse: collapse;
+  border-spacing: 0;
+  padding: 0;
+  margin: 0 20px 20px 20px;
+  box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #ff6a00;
+  text-shadow: black 1px 1px 1.5px;
+  font-size: 40px;
+  margin: 0;
+  padding: 0.5em 0.5em;
+}
+
+p {
+  font-family: Tahoma, sans-serif;
+}
+
+button {
+  background-color: #ff6a00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 13px 50px;
+}
+
+#dialog {
+  background-color: #ffcba7;
+  border-radius: 5px;
+  color: #c75100;
+  font-size: 20px;
+  padding: 20px 40px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.4);
+}
+
+#dialog h1 {
+  padding-left: 0px;
+  padding-bottom: 0px;
+}
+
+th {
+  background-color: #ff6a00;
+  border-bottom: 1px solid rgba(140, 54, 0, 0.17);
+  font-weight: bold;
+  font-size: 20px;
+  padding: 0.5em 0.8em;
+  text-align: left;
+}
+
+#restaurant-type {
+  background-color: #ffcba7;
+  border: none;
+  border-radius: 5px;
+  color: #c75100;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.selection {
+  padding-left: 20px;
+  font-size: 20px;
+}
+
+td {
+  border-bottom: 1px solid rgba(140, 54, 0, 0.17);
+  padding: 0.5em 1em;
+}
+
+.highlight {
+  background-color: #ff8b3b; /* Change as desired */
+  font-weight: bold; /* Change as desired */
+}
