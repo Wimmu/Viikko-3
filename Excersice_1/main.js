@@ -14,13 +14,6 @@ const createTable = (restaurants) => {
   const tableNode = document.getElementById('restaurant-list');
   const dialogNode = document.getElementById('dialog');
 
-  tableNode.innerHTML = ''; // Clear previous table content
-
-  const headerRow = document.createElement('tr');
-  headerRow.id = 'table-row';
-  headerRow.innerHTML = '<th>Name</th><th>Address</th>';
-  tableNode.appendChild(headerRow);
-
   restaurants.forEach((restaurant) => {
     const tr = restaurantRow(restaurant);
     tableNode.appendChild(tr);
@@ -38,18 +31,6 @@ const buildWebsite = async () => {
   console.log(restaurants);
   sortRestaurants(restaurants);
   createTable(restaurants);
-
-  const selectElement = document.getElementById('restaurant-type');
-  selectElement.addEventListener('change', async () => {
-    const selectedType = selectElement.value;
-    if (selectedType) {
-      const filteredRestaurants = restaurants.filter
-      (restaurant => restaurant.company === selectedType);
-      createTable(filteredRestaurants);
-    } else {
-      createTable(restaurants); // Show all restaurants if no type selected
-    }
-  });
 };
 
 buildWebsite();

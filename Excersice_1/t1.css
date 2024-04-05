@@ -71,11 +71,6 @@ th {
   margin-bottom: 20px;
 }
 
-.selection {
-  padding-left: 20px;
-  font-size: 20px;
-}
-
 td {
   border-bottom: 1px solid rgba(140, 54, 0, 0.17);
   padding: 0.5em 1em;
